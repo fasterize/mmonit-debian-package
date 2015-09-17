@@ -1,0 +1,5 @@
+#!/bin/sh -e
+[ -d /var/log/mmonit ] || mkdir /var/log/mmonit
+ln -s /var/log/mmonit /usr/local/mmonit/logs
+update-rc.d mmonit defaults
+/etc/init.d/mmonit start

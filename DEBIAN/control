@@ -1,0 +1,10 @@
+Package: mmonit
+Version: 3.5.1-fasterize2
+Architecture: amd64
+Section: base
+Priority: optional
+Depends: libc6
+Maintainer: Fasterize team <tech@fasterize.com>
+Description: Easy, proactive monitoring of Linux/Unix systems, network and cloud services.
+ Conduct automatic maintenance and recovery and execute meaningful causal
+ actions in error situations.
